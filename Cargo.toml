@@ -1,0 +1,12 @@
+[package]
+name = "osm_a_star"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bincode = {version = "2.0.1", features = ["serde"]}
+macroquad = "0.4.14"
+osmpbf = "0.3.8"
+rstar = { version = "0.12.2", features = ["serde"]}
+rustc-hash = "2.1.2"
+serde = {version = "1.0.228", features = ["derive"]}
